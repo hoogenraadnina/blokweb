@@ -27,7 +27,85 @@
 /* JOUW STYLING */
 /****************/
 
-img{
-	size: 10px;
+nav {
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
 }
 
+
+body{
+	background-color: black;
+	color: white;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+
+
+
+ul{
+	list-style-type: none;
+	display: flex;
+
+
+}
+
+
+
+img{
+	width: 300px;
+	height: 300px;
+	
+}
+
+a { /*https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_css*/
+	color: white;
+	background-color: darkorchid;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+}
+
+a:hover { /* https://cssgradient.io/ */
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+button {
+	font-family: inherit;
+	display: flex;
+	align-items: center;
+	background-color: #9932cc;
+	color: white;
+	text-align: center;
+	margin:0 auto; 
+	border: none;
+	padding: 15px 32px;
+  	text-decoration: none;
+  	display: inline-block;
+  	margin: 4px 2px;
+	position: sticky;
+}
+
+button:hover {
+	background-color: green;
+}
+
+header nav ul li a:first-of-type {
+    background-color: transparent;
+}
+
+header nav ul li a img:first-of-type {
+	height: 50px;
+	width: 100px;
+}
+
+
+.nav:nth-of-type(2) {
+	
+
+}

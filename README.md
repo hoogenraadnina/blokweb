@@ -56,10 +56,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  
+  - Lijst met je bevindingen die in de test naar voren kwamen:
 
-  De website is niet helemaal toegankelijk 
-  Geen headings 
+  - De website is niet helemaal toegankelijk 
+  - Geen headings (op de merch en Homepage)
 
 </details>
 
@@ -91,24 +92,29 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  
+- Ik focus vooral mijn aandacht op de oefeningen
+- Kan ik mijn site mooeir maken maar is dat de bedoeling?
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | html structuur  | en dit             | en ik dit    | en dan ik dat    |
-  | pagina goed genoeg | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+FEMMA: 
+- Wat doe je als je site Nederlands en Engels is? (Heb ik ook als probleem)
+- Wanneer gebruik je grids en wanneer gebruik je flexbox?
 
+ROMY:
+- hoet zit het met divs? wanneer mag je wel of niet een div gebruiken?
+
+NINA:
+- site van chase atlantic is niet per se mooi? mag ik dat aanpassen op mijn website?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - goed kijken of het een button of link is (en dan in CSS stylen)
   - Formulier bij de merch
+  - cijfer gaat niet over je vormgeving maar vooral op je vanilla HTML en CSS
 
 </details>
 
@@ -140,31 +146,33 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-  
-
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | Nav bar maken? | ---                | ---          | ---              |
-  | Hoe je de css
-  van de 2de pagina 
-  moet maken zonder een
-  nieuwe css        | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | Hoe zet ik een knop 
-  op de youtube filmpje 
-  waar ik op kan klikken| ...                | ...          | ...              |
+  NINA:
+- Nav bar maken? 
+- Hoe je de css van de 2de pagina  moet maken zonder een nieuwe css      
+- Hoe zet ik een knop op de youtube filmpje waar ik op kan klikken  
+
+SUSAN: 
+- Vragen over svg en li
+
+FEMMA: 
+- kan ze nog switchen naar reponsive? 
+- mogen a's naar niks leiden (gewoon hoe het eruit ziet en niet werkend)?
+- Hoe zet je fotos bij de prodcutpagina?
+
+ROMY: 
+- Vragen over de productpagina
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
+GESPREK MET STUDENTASSISTENT
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+- Moeilijk om een button in plaats van de button van youtube te maken (ga he uiteindelijk toch niet doen)
+- Uiteindelijk 2 css gemaakt omdat mijn vormgeving ech verschillend is op mijn pagina's
 
 </details>
 
@@ -180,6 +188,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  - Dat alles goed wordt gelzen: ook alt van de t-shirts
+  - h1 en h2 aanpassen omdat het verwart uitziet en dat de gebruiker het onduidelijk zou vinden met gebruik van een reader
+
 </details>
 
 
@@ -192,26 +203,40 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ - De fixed bestelling plaatsen button gaat over mijn nav waardoor ik het ook zie wanneer mijn hamburger menu open is 
+ - fout op Chrome over aria label=hidden
 
+ - Heel goed onderweg, nog een paar aanpassigen en dan ben ik klaar (header en hamburger menu fixen en de animaties moeten er nog in)
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  ROMY:
+
+  - Little Petshop website is niet heel mooi kan ik dat aanpassen (ja want docent gaat niet de 2 websites met elkaar vergelijken)
+  - gebruik van divs voor de merch pagina van de Petshops
+
+  SUSAN: 
+  
+  - site aangepast en gen divs meer. Page met formulier er groot in is goed maar moet wat extra bij 
+
+  FEMMA:
+
+  - Of er een alt of aria-label bij een foto moet zijn die eigenlijk een a is 
+
+
+  NINA:
+  - De fixed bestelling plaatsen button gaat over mijn nav waardoor ik het ook zie wanneer mijn hamburger menu open is 
+ - fout op Chrome over aria label=hidden
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Gebruik z-index om de layer van de nav bar over de button te zetten
+  - Kijken naar aria label hidden want dat staat zo voor mijn hamburergermenu maar het moet juist zichtbaar zijn en de cross juist hidden want die zie je pas wanneer je op de hamburgermenu klikt
+
+
 
 </details>
 
@@ -253,8 +278,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Chat Gpt: voor de input van maat en aantal stuks (met als prompt: kan je een input maken voor een maat en aantal stuks selectie)
+
+  2. Social Media Icons by NiftyButtons https://niftybuttons.com (in de footer van Merch en Home html)
+
+  3. Code Pen /Dlo: hulp met formulier maken (die docent had gestuurd als )
 
 </details>

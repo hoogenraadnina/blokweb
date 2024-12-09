@@ -1,8 +1,10 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
 
 
@@ -15,8 +17,9 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text: white;
+	--color-background: black;
+	
 }
 
 
@@ -27,14 +30,10 @@
 /* JOUW STYLING */
 /****************/
 
-nav {
-	display: flex;
-	justify-content: center;
-	flex-wrap: nowrap;
-}
 
 
-body{
+
+body {
 	background-color: black;
 	color: white;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -42,70 +41,179 @@ body{
 }
 
 
+iframe {
+	border: none;
+}
 
-ul{
+header nav ul {
 	list-style-type: none;
 	display: flex;
+	flex-direction: column;
+	font-size: 25px;
+	padding: 1em;
+	margin-top: 2em;
 
+}
 
+header nav li {
+	margin-top: 1em;
+	margin-bottom: 2em;
+	align-items: left;
 }
 
 
 
-img{
-	width: 300px;
-	height: 300px;
-	
+
+img {
+	width: 18.75em;
+	height: 18.75em;
+
 }
 
-a { /*https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_css*/
+a {
+	/*https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_css*/
 	color: white;
 	background-color: darkorchid;
 	border: none;
-	padding: 15px 32px;
+	padding: 0.9em 2em;
 	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 16px;
-  	margin: 4px 2px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 0.5em;
+
+
 }
 
-a:hover { /* https://cssgradient.io/ */
-	background: rgb(63,94,251);
-	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+section:first-of-type a:hover {
+	background-color: darkviolet;
+	opacity: 0.5;
 }
+
+footer a:hover {
+	background-color: darkviolet;
+	opacity: 0.5;
+}
+
+
 
 button {
 	font-family: inherit;
 	display: flex;
-	align-items: center;
-	background-color: #9932cc;
+	background-color: transparent;
 	color: white;
 	text-align: center;
-	margin:0 auto; 
+	margin: 0 auto;
 	border: none;
-	padding: 15px 32px;
-  	text-decoration: none;
-  	display: inline-block;
-  	margin: 4px 2px;
-	position: sticky;
-}
-
-button:hover {
-	background-color: green;
-}
-
-header nav ul li a:first-of-type {
-    background-color: transparent;
-}
-
-header nav ul li a img:first-of-type {
-	height: 50px;
-	width: 100px;
-}
-
-
-.nav:nth-of-type(2) {
-	
 
 }
+
+header button:first-of-type {
+	width: 2vw;
+	height: auto;
+}
+
+header {
+	background-color: #9932cc;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 0.5em;
+	top: 0;
+	margin-bottom: 2em;
+
+}
+
+nav {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+
+	translate: -100% 0%;
+	transition: translate .3s;
+	top: 0;
+	background-color: darkorchid;
+}
+
+
+nav.toonMenu {
+	translate: 0% 0%;
+}
+
+
+
+
+header a img {
+	height: 3.125em;
+	width: 6.25em;
+}
+
+@keyframes winkelmand-animation {
+	0% {
+		scale: 1;
+	}
+
+	100% {
+		scale: 2;
+	}
+}
+
+
+header a svg:hover {
+	animation-name: winkelmand-animation;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+header button img {
+	height: 1.25em;
+	width: 2.5em;
+}
+
+body section:nth-of-type(2) a:last-of-type {
+	background-color: purple;
+}
+
+
+footer{
+	margin-top: 2em;
+}
+
+
+/* ANIMATIE 1 */
+
+
+@keyframes andere-properties-animation {
+	0% { 
+	  width:15em; 
+	  background-color:var(--start-color);
+	}
+	50% { 
+		width:10em; 
+		background-color:var(--end-color); 
+	}
+	100% { 
+	  width:15em; 
+	  background-color:var(--end-color);
+	}
+  }
+  
+  section:last-of-type {
+	--start-color: darkviolet;
+	--end-color:blue;
+  }
+  
+  section:last-of-type a {
+	background-color:var(--start-color);
+  }
+  
+  section:last-of-type a:hover {
+	animation-name:andere-properties-animation;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+  }
+  
+  
+  

@@ -1,61 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Merch</title>
-    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/style2.css" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="images/iconurl.webp">
 </head>
 
 <body>
     <header>
+        <button aria-hidden="true"><img src="https://assets.codepen.io/274456/ui-icon-hamburger.svg"
+                alt="Hamburgermenu"></button>
+        <a href="#ChaseAtlantic">
+            <img src="images/logochaseatlantic.png" alt="Chase atlantic logo">
+            <!-- https://www.reddit.com/r/ChaseAtlantic/comments/zxi9jm/hello_ca_fans_i_made_some_wallpapers_for_you_to/ -->
+        </a>
+
+
         <nav>
+
+            <button aria-hidden="true"><img src="https://assets.codepen.io/274456/ui-icon-cross.svg"
+                    alt="sluit de Hamburgermenu"></button>
             <ul>
-                <li><a href="#hamburgermenu">&#9776;</a></li>
-                <li><a href="#Winkelmand">Winkelmand</a></li>
+                <li>Home</li>
+                <li>Tour</li>
+                <li>VIP</li>
+                <li>Merch</li>
+                <li>Sign in</li>
+
             </ul>
+
         </nav>
     </header>
 
+    <h1>T-shirt v-hals unisex - Chase Atlantic merch</h1>
+
     <section>
-        <h1>T-shirt v-hals unisex - Chase Atlantic merch</h1>
+
         <h2>23.95 €</h2>
-        <img src="images/tshirtfrontbig.png" alt="Zwart t-shirt">
+        <img src="images/tshirtfrontbig.png" alt="Zwart t-shirt met naam van band en roos onderaan">
         <p>T-shirt V-hals Unisex</p>
+
+
         <!-- hier flexbox andere shirts en hoodies-->
-        <h3>Maat</h3>
-        <h3>Aantal stuks</h3>
 
-        <h2>Productdetails</h2>
+        <label id="size">Maat</label> <!-- Met behulp van chatgpt-->
+        <select name="size">
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+            <option value="xxl">XXL</option>
+        </select>
 
 
-        <h3>Meer campagnes van Chase Atlantic Merch die vas leuk zult vinden</h3>
+
+        <label id="stuks">Aantal stuks</label>
+        <select name="stuks">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        <details>
+            <summary>Productdetails</summary>
+            <p>Custom T-shirts met korte mouwen voor mannen zijn een perfect en tijdloos geschenk.
+                De ronde hals en klassieke pasvorm halen het beste in al je outfits naar boven. </p>
+            <ul>
+                <li>Pasvorm: Classic Fit</li>
+                <li> Type mouw: Korte mouwen</li>
+                <li>Type halslijn: Ronde hals</li>
+                <li>Kwaliteit stof: 150 g/m² - 4,5 oz/yd²</li>
+                <li>Materiaal: 100% katoen</li>
+            </ul>
+        </details>
 
 
-
-        <h4>Blijf op de hoogte van updates, de laatste trends en speciale aanbiedingen</h4>
-        <!-- hier flexbox andere shirts en hoodies-->
-        <form action="http://www.ns.nl" autofill>
-            <fieldset>
-                <legend>Je naam</legend>
-                <label for="name"></label>
-                <input id="name" required type="text">
-
-                <legend>Je e-mail adres</legend>
-                <label for="surname"></label>
-                <input id="surname" required type="text">
-                <p class="feedback">✅</p>
-
-                <button>Inschrijven</button>
-            </fieldset>
-
-            <button>Bestelling plaatsen</button>
+        <article>
+            <h3>Meer campagnes van Chase Atlantic Merch die vast leuk zult vinden</h3>
+            <div>
+                <img src="images/tshirtsmall1.png" alt="Zwart t-shirt met Chase Atlantic roos">
+                <img src="images/tshirtsmall2.png"
+                    alt="Zwart t-shirt met Chase Atlantic blauwe hart nieuwe album cover">
+                <img src="images/tshirtsmall3.png" alt="Zwart t-shirt met fotos van de band en rode tekst">
+                <img src="images/tshirtsmall4.png" alt="Zwart t-shirt met Chase in het diktgedrukt">
+            </div>
+        </article>
 
     </section>
+
+    <section>
+
+        <h2>Blijf op de hoogte van updates, de laatste trends en speciale aanbiedingen</h2>
+        <form action="index.html">
+            <fieldset>
+                <h3>Je gegevens</h3>
+
+                <label for="name">Je naam:</label>
+                <input id="name" name="name" required type="text">
+
+                <label for="email">Je e-mailadres:</label>
+                <input id="email" name="email" required type="email">
+
+                <button type="submit">Inschrijven</button>
+            </fieldset>
+        </form>
+
+    </section>
+
+    <article>
+        <button aria-label="spring">Bestelling plaatsen </button> 
+    </article>
+
+
     <footer>
-        <p>Follow</p>
+        <h2>Follow</h2>
+        <!-- Social Media Icons by NiftyButtons https://niftybuttons.com -->
+        <div style="display: flex; flex-wrap:wrap; align-items: center; justify-content: center;"><a
+                href="https://www.facebook.com/ChaseAtlantic/" target="_blank" rel="noopener noreferrer"
+                style="text-decoration:none;border:0;width:42px;height:42px;padding:2px;margin:5px;color:#9932cc;border-radius:50%;background-color:#0d2744;">
+                <svg class="niftybutton-facebook" style="display:block;fill:currentColor" data-donate="true"
+                    data-tag="fac" data-name="Facebook" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+                    <title>Facebook social icon</title>
+                    <path
+                        d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z">
+                    </path>
+                </svg></a><a href="https://www.youtube.com/channel/UCpvCJWgUNwZArGtJ00kDS1A" target="_blank"
+                rel="noopener noreferrer"
+                style="text-decoration:none;border:0;width:42px;height:42px;padding:2px;margin:5px;color:#9932cc;border-radius:50%;background-color:#0d2744;"><svg
+                    class="niftybutton-youtube" style="display:block;fill:currentColor" data-donate="true"
+                    data-tag="you" data-name="YouTube" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+                    <title>YouTube social icon</title>
+                    <path
+                        d="M422.6 193.6c-5.3-45.3-23.3-51.6-59-54 -50.8-3.5-164.3-3.5-215.1 0 -35.7 2.4-53.7 8.7-59 54 -4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54C426.6 284.8 426.6 227.3 422.6 193.6zM222.2 303.4v-94.6l90.7 47.3L222.2 303.4z">
+                    </path>
+                </svg></a><a href="https://open.spotify.com/artist/7cYEt1pqMgXJdq00hAwVpT" target="_blank"
+                rel="noopener noreferrer"
+                style="text-decoration:none;border:0;width:42px;height:42px;padding:2px;margin:5px;color:#9932cc;border-radius:50%;background-color:#0d2744;"><svg
+                    class="niftybutton-spotify" style="display:block;fill:currentColor" data-donate="true"
+                    data-tag="spo" data-name="Spotify" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+                    <title>Spotify social icon</title>
+                    <path
+                        d="M256 78c-98.3 0-178 79.7-178 178 0 98.31 79.7 178 178 178 98.31 0 178-79.69 178-178 0-98.3-79.69-178-178-178zm81.63 256.73a11.09 11.09 0 0 1-15.26 3.68c-41.8-25.53-94.4-31.31-156.37-17.16a11.1 11.1 0 0 1-4.93-21.64c67.8-15.49 125.96-8.82 172.88 19.86a11.1 11.1 0 0 1 3.68 15.26zm21.79-48.47a13.88 13.88 0 0 1-19.1 4.57c-47.84-29.4-120.77-37.92-177.36-20.74a13.9 13.9 0 0 1-17.32-9.25 13.9 13.9 0 0 1 9.25-17.3c64.65-19.62 145.01-10.12 199.96 23.64a13.87 13.87 0 0 1 4.56 19.08zm1.87-50.47c-57.37-34.07-152.02-37.2-206.8-20.58a16.65 16.65 0 1 1-9.66-31.87c62.88-19.08 167.4-15.4 233.45 23.81a16.63 16.63 0 0 1 5.82 22.82 16.63 16.63 0 0 1-22.8 5.82h-.01z">
+                    </path>
+                </svg></a></div>
+
+        <p>© 2024 Chase Atlantic.<p>
     </footer>
 
     <script defer src="scripts/script.js"></script>

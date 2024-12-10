@@ -1,4 +1,3 @@
-
 /**************/
 /* CSS REMEDY */
 /**************/
@@ -8,11 +7,6 @@
     box-sizing: border-box;
 }
 
-
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -20,201 +14,208 @@
     /* startje */
     --color-text: white;
     --color-background: black;
+    --start-color: darkviolet;
+    --end-color: blue;
 }
-
-
-
-
 
 /****************/
 /* JOUW STYLING */
 /****************/
 
-
-
-
-
 body {
     background-color: black;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-size: 16px;
+}
+
+header {
+    background-color: #9932cc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.5em;
+    margin-bottom: 2em;
+    width: 22em;
+    height: 6em;
 }
 
 header button:first-of-type {
-	width: 2vw;
-	height: auto;
+    width: 2vw;
+    height: auto;
 }
-
-
-header {
-	background-color: #9932cc;
-	display: flex;
-	justify-content: space-between;
-	border-radius: 0.5em;
-	margin-bottom: 2em;
-    width: 22em;
-    height: 8em;
-
-}
-
-
-
-nav {
-	position: fixed;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-    z-index: 1;
-	translate: -100% 0%;
-	transition: translate .3s;
-	top: 0;
-	background-color: darkorchid;
-
-}
-
 
 header button {
-	
-	background-color: transparent;
-	color: white;
-	text-align: center;
-	border: none;
-
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border: none;
 }
-
-nav.toonMenu {
-	translate: 0% 0%;
-}
-
-
-
 
 header a img {
-	height: 3.125em;
-	width: 6.25em;
+    height: 6em;
+    width: 11em;
     align-content: center;
 }
 
-
 header nav ul {
-	list-style-type: none;
-	display: flex;
-	flex-direction: column;
-	font-size: 25px;
-	padding: 1em;
-	margin-top: 2em;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    padding: 1em;
+    margin-top: 2em;
     align-items: center;
-
-
-
 }
+
 header nav li {
-	margin-top: 1em;
-	margin-bottom: 2em;
-
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
+nav {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    translate: -100% 0%;
+    transition: translate 0.3s;
+    top: 0;
+    background-color: darkorchid;
+}
 
+nav.toonMenu {
+    translate: 0% 0%;
+}
 
 section:first-of-type img {
     width: 15em;
-    height: 18.75em; 
+    height: 18.75em;
     display: flex;
     display: block;
     margin: 0 auto;
-   
 }
 
+/* tshirts die draaien animatie */
 
-section :first-of-type h2{
+@keyframes draai-animation {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+section img:hover {
+    animation-name: draai-animation;
+    animation-duration: 3s;
+    animation-iteration-count: alternate;
+    z-index: 1000;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+section :first-of-type h2 {
     text-align: left;
 }
 
-
-
-section fieldset{
+section fieldset {
     border: none;
-    
 }
 
-
-section fieldset button:first-of-type{
-	display: flex;
-	align-items: center;
-	background-color: #9932cc;
-	color: white;
-	text-align: center;
-	margin:0 auto;
-	padding: 1em;
-  	text-decoration: none;
-  	display: inline-block;
+section fieldset button:first-of-type {
+    display: flex;
+    align-items: center;
+    background-color: #9932cc;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em;
+    text-decoration: none;
+    display: inline-block;
     font-size: 16px;
     border-radius: 0.5em;
     border: none;
-
 }
 
-article button{
+article button {
     width: 22em;
     height: 3em;
-    border-radius: 0.5em; 
-    background-color:#9932cc ; 
+    border-radius: 0.5em;
+    background-color: #9932cc;
     color: white;
     border: none;
-    text-align: center; 
-    font-size: 16px; 
-    bottom:0;
+    text-align: center;
+    font-size: 16px;
+    bottom: 0;
     margin-bottom: 1em;
     position: fixed;
-   
-
 }
 
-form{
-    display:flex;
-    flex-direction:column;
-    transition: all .2s;
+/* spring animatie */
+@keyframes spring-animation {
+    0% {
+        transform: translate(0em, 0em);
+    }
+
+    100% {
+        transform: translate(0em, -8em);
+    }
+}
+
+article button:hover {
+    animation-name: spring-animation;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.125, 0.995, 1, 1);
+    /* : Het begint langzaam en versnelt snel naar het einde. */
+    z-index: 1000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s;
     background: black;
-    max-width:30rem;
-    margin:0 auto;
-    overflow:hidden;
+    max-width: 30rem;
+    margin: 0 auto;
+    overflow: hidden;
     outline: none;
     text-align: center;
-
 }
 
 input {
     outline: none;
-    width:75vw;
+    width: 75vw;
     height: 5vh;
     border-radius: 0.5em;
     border: none;
     margin-bottom: 0.8em;
-  }
-
-
-
-section:first-of-type h2{
-    text-align: left;
 }
 
-
-
 /* Stijl voor het label */
-label{
+label {
     font-size: 16px;
-    display: block; 
+    display: block;
     padding: 1em;
 }
 
 /* Stijl voor de dropdown */
-select{
-    width: 100%; 
+select {
+    width: 100%;
     padding: 0.5em;
     border: 1px solid;
-    border-radius: 0.3em; 
+    border-radius: 0.3em;
     font-size: 16px;
     background-color: black;
     color: white;
@@ -223,85 +224,58 @@ select{
 
 select:focus {
     outline: none;
-    border-color: #9932cc; 
+    border-color: #9932cc;
 }
 
 /* Stijl voor de link */
 
-a{
+section:first-of-type h2 {
+    text-align: left;
+}
+
+a {
     display: inline-block;
-    margin-top: 0.5em; 
+    margin-top: 0.5em;
     font-size: 12px;
-    color: #9932cc; 
+    color: #9932cc;
     text-decoration: none;
 }
 
-
-a:hover {
-	background-color: darkviolet;
-	opacity: 0.5;
-}
-
-
-section article div:nth-of-type(1){
+article div:nth-of-type(1) {
     display: flex;
-    justify-content: flex-start; 
-    align-items: center; 
+    justify-content: flex-start;
+    align-items: center;
     overflow: scroll;
 }
 
-
-section article:nth-of-type(1) img { 
+article:nth-of-type(1) img {
     width: 11em;
     height: 11em;
 }
 
-details{
+details {
     margin-top: 2em;
 }
-
-details li{
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-
-}
- 
 
 details ul {
     margin: 0;
     padding: 0;
 }
 
+details li {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
-footer{
+footer {
     margin-bottom: 5em;
     margin-top: 2em;
     text-align: center;
 }
 
 footer a:hover {
-	background-color: darkviolet;
-	opacity: 0.5;
+    background-color: darkviolet;
+    opacity: 0.5;
 }
-
-
-@keyframes spring-animation {
-    0% {
-      transform: translate(0em, 0em);
-    }
-    100% {
-      transform: translate(0em, -8em)
-    }
-  }
-  
-  article button:hover {
-    animation-name:spring-animation;
-    animation-duration:.5s;
-    animation-iteration-count:infinite;
-    animation-direction:alternate;
-    animation-timing-function:cubic-bezier(0.125, 0.995, 1.000, 1);     /* : Het begint langzaam en versnelt snel naar het einde. */
-    z-index: 1000;
-  }
-  

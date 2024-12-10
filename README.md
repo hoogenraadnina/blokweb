@@ -1,115 +1,115 @@
 # Procesverslag
+
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
-
+Nb. Door _open_ toe te voegen aan een _details_ element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
 
 ## Jij
 
 <details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
-  ### Auteur:
-  Nina Hoogenraad
+### Auteur:
 
-  #### Je startniveau:
-  Blauw 
+Nina Hoogenraad
 
-  #### Je focus:
-  Surface Plane
- 
+#### Je startniveau:
+
+Blauw
+
+#### Je focus:
+
+Surface Plane
+
 </details>
-
-
-
-
 
 ## Je website
 
 <details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
-  ### Je opdracht:
-  https://chaseatlantic.com/ 
+### Je opdracht:
 
-  #### Screenshot(s) van de eerste pagina (small screen): 
-  Homepage 
-  <img src="readme-images/homepage.png" width="375px" alt="homepage met alle tours">
+https://chaseatlantic.com/ en https://www.teezily.com/chase-atlantic-merch08?_store=93055&source=store&store=chase-atlantic-merch%3Fproduct%3D21&product=1&item=1197404825&side=front&prop%5Bcolor%5D=black&prop%5Bsize%5D=
 
-  #### Screenshot(s) van de tweede pagina (small screen):
-  Merch 
-  <img src="readme-images/merchscreen.png" width="375px" alt="merch van band Chase Atlantic">
- 
+#### Screenshot(s) van de eerste pagina (small screen):
+
+Homepage
+<img src="readme-images/homepage.png" width="375px" alt="homepage met alle tours">
+
+#### Screenshot(s) van de tweede pagina (small screen):
+
+Merch
+<img src="readme-images/merchscreen.png" width="375px" alt="merch van band Chase Atlantic">
+
+WEBSITE WERKTE NIET MEER DUS ANDERE MERCH WEBSITE GEKOZEN OOK VAN CHASE ATLANTIC MAAR LASTIGER
+
 </details>
-
-
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
-  ### Bevindingen
-  
-  - Lijst met je bevindingen die in de test naar voren kwamen:
+### Bevindingen
 
-  - De website is niet helemaal toegankelijk 
-  - Geen headings (op de merch en Homepage)
+- Lijst met je bevindingen die in de test naar voren kwamen:
+
+- De website is niet helemaal toegankelijk
+- Geen headings (op de merch en Homepage)
 
 </details>
-
-
 
 ## Breakdownschets (week 1)
 
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
+### de hele pagina:
+
   <img src="readme-images/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschetsmerchechte.png" width="375px" alt="merch van band Chase Atlantic andere website">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+### dynamisch deel (bijv menu):
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/hamburgermenu.png" width="375px" alt="hamburger menu">
+
+### wellicht nog een dynamisch deel (bijv filter):
+
+  <img src="readme-images/youtubefilmpje.png" width="375px" alt="youtube filmpje">
 
 </details>
-
-
-
-
 
 ## Voortgang 1 (week 2)
 
 <details>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
-  ### Stand van zaken
-  
+### Stand van zaken
+
 - Ik focus vooral mijn aandacht op de oefeningen
 - Kan ik mijn site mooeir maken maar is dat de bedoeling?
 
-
   ### Agenda voor meeting
 
-FEMMA: 
+FEMMA:
+
 - Wat doe je als je site Nederlands en Engels is? (Heb ik ook als probleem)
 - Wanneer gebruik je grids en wanneer gebruik je flexbox?
 
 ROMY:
+
 - hoet zit het met divs? wanneer mag je wel of niet een div gebruiken?
 
 NINA:
+
 - site van chase atlantic is niet per se mooi? mag ik dat aanpassen op mijn website?
 
   ### Verslag van meeting
+
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - goed kijken of het een button of link is (en dan in CSS stylen)
@@ -118,170 +118,163 @@ NINA:
 
 </details>
 
-
-
-
-
 ## Voortgang 2 (week 3)
 
 <details>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
-  ### Stand van zaken
-  - de lijst van alle concerten gin goed: vond het niet lastig om de a in form van button te maken en ze 
+### Stand van zaken
+
+- de lijst van alle concerten gin goed: vond het niet lastig om de a in form van button te maken en ze
   op een rijtje zetten
 
   <img src="readme-images/concerten" width="375px" alt="breakdown van nog een dynamisch deel">
 
-  - omdat de website van chase atlantic niet werkt heb ik gekozen om een andere merch pagina na te maken: Teezily die
+- omdat de website van chase atlantic niet werkt heb ik gekozen om een andere merch pagina na te maken: Teezily die
   ook Chase Atlantic merch verkoopt. Ik vind het wel erg challenging omdat er meerdere animaties en er zit ook een verticale
-  scroll. 
+  scroll.
 
   <img src="readme-images/merchtshirts" width="375px" alt="breakdown van nog een dynamisch deel">
 
-  - Ten slotte vind ik het ook lastig om de navigatie bar te maken (met winkelmand en hamburgermenu), ik moet me nu dus verdiepen
+- Ten slotte vind ik het ook lastig om de navigatie bar te maken (met winkelmand en hamburgermenu), ik moet me nu dus verdiepen
   in Javascript zodat ik de hamburger menu zo kan maken.
 
   <img src="readme-images/navbarknop" width="375px" alt="breakdown van nog een dynamisch deel">
 
+### Agenda voor meeting
 
+samen met je groepje opstellen
 
+NINA:
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
+- Nav bar maken?
+- Hoe je de css van de 2de pagina moet maken zonder een nieuwe css
+- Hoe zet ik een knop op de youtube filmpje waar ik op kan klikken
 
-  NINA:
-- Nav bar maken? 
-- Hoe je de css van de 2de pagina  moet maken zonder een nieuwe css      
-- Hoe zet ik een knop op de youtube filmpje waar ik op kan klikken  
+SUSAN:
 
-SUSAN: 
 - Vragen over svg en li
 
-FEMMA: 
-- kan ze nog switchen naar reponsive? 
+FEMMA:
+
+- kan ze nog switchen naar reponsive?
 - mogen a's naar niks leiden (gewoon hoe het eruit ziet en niet werkend)?
 - Hoe zet je fotos bij de prodcutpagina?
 
-ROMY: 
+ROMY:
+
 - Vragen over de productpagina
 
-
   ### Verslag van meeting
+
   hier na afloop snel de uitkomsten van de meeting vastleggen
-GESPREK MET STUDENTASSISTENT
+  GESPREK MET STUDENTASSISTENT
 
 - Moeilijk om een button in plaats van de button van youtube te maken (ga he uiteindelijk toch niet doen)
 - Uiteindelijk 2 css gemaakt omdat mijn vormgeving ech verschillend is op mijn pagina's
 
 </details>
 
-
-
-
-
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+### Bevindingen
 
-  - Dat alles goed wordt gelzen: ook alt van de t-shirts
-  - h1 en h2 aanpassen omdat het verwart uitziet en dat de gebruiker het onduidelijk zou vinden met gebruik van een reader
+Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+
+- Dat alles goed wordt gelzen: ook alt van de t-shirts
+- h1 en h2 aanpassen omdat het verwart uitziet en dat de gebruiker het onduidelijk zou vinden met gebruik van een reader
 
 </details>
-
-
-
-
 
 ## Voortgang 3 (week 4)
 
 <details>
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
-  ### Stand van zaken
- - De fixed bestelling plaatsen button gaat over mijn nav waardoor ik het ook zie wanneer mijn hamburger menu open is 
- - fout op Chrome over aria label=hidden
+### Stand van zaken
 
- - Heel goed onderweg, nog een paar aanpassigen en dan ben ik klaar (header en hamburger menu fixen en de animaties moeten er nog in)
+- De fixed bestelling plaatsen button gaat over mijn nav waardoor ik het ook zie wanneer mijn hamburger menu open is
+- fout op Chrome over aria label=hidden
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
+- Heel goed onderweg, nog een paar aanpassigen en dan ben ik klaar (header en hamburger menu fixen en de animaties moeten er nog in)
 
-  ROMY:
+### Agenda voor meeting
 
-  - Little Petshop website is niet heel mooi kan ik dat aanpassen (ja want docent gaat niet de 2 websites met elkaar vergelijken)
-  - gebruik van divs voor de merch pagina van de Petshops
+samen met je groepje opstellen
 
-  SUSAN: 
-  
-  - site aangepast en gen divs meer. Page met formulier er groot in is goed maar moet wat extra bij 
+ROMY:
 
-  FEMMA:
+- Little Petshop website is niet heel mooi kan ik dat aanpassen (ja want docent gaat niet de 2 websites met elkaar vergelijken)
+- gebruik van divs voor de merch pagina van de Petshops
 
-  - Of er een alt of aria-label bij een foto moet zijn die eigenlijk een a is 
+SUSAN:
 
+- site aangepast en gen divs meer. Page met formulier er groot in is goed maar moet wat extra bij
 
-  NINA:
-  - De fixed bestelling plaatsen button gaat over mijn nav waardoor ik het ook zie wanneer mijn hamburger menu open is 
- - fout op Chrome over aria label=hidden
+FEMMA:
 
+- Of er een alt of aria-label bij een foto moet zijn die eigenlijk een a is
 
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+NINA:
 
-  - Gebruik z-index om de layer van de nav bar over de button te zetten
-  - Kijken naar aria label hidden want dat staat zo voor mijn hamburergermenu maar het moet juist zichtbaar zijn en de cross juist hidden want die zie je pas wanneer je op de hamburgermenu klikt
+- De fixed bestelling plaatsen button gaat over mijn nav waardoor ik het ook zie wanneer mijn hamburger menu open is
+- fout op Chrome over aria label=hidden
 
+### Verslag van meeting
 
+hier na afloop snel de uitkomsten van de meeting vastleggen
+
+- Gebruik z-index om de layer van de nav bar over de button te zetten
+- Kijken naar aria label hidden want dat staat zo voor mijn hamburergermenu maar het moet juist zichtbaar zijn en de cross juist hidden want die zie je pas wanneer je op de hamburgermenu klikt
 
 </details>
-
-
-
-
 
 ## Eindgesprek (week 5)
 
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
-  ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+### Je uitkomst - karakteristiek screenshots:
 
+  <img src="readme-images/homepage.JPG" width="375px" alt="uitomst opdracht 1">
 
-  ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+### Dit ging goed/Heb ik geleerd:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+1. Ik heb geleerd hoe ik met nth of type last of first om moet gaan
+2. Ik heb geleerd hoe ik animaties moet maken
+3. Hoe ik een detail tekstje kan schrijven (opklapbaar)
+   <img src="readme-images/details.png" width="375px" alt="top">
 
+### Dit was lastig/Is niet gelukt:
 
-  ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+1. Een button ipv van de youtube button plaatsen (niet gelukt)
+2. Hamburger menu maken vond ik lastig vooral door javascript
+3. Sommige animaties (die jump jump van codepen) vond ik lastig aan te passe aan mijn fixed button in de merch
+<img src="readme-images/youtubebutton.png" width="375px" alt="bummer">
 </details>
-
-
-
-
 
 ## Bronnenlijst
 
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
+Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
+Nb. ChatGpT en andere AI horen er ook bij.
+Nb. Vermeld de bronnen ook in je code.
 
-  1. Chat Gpt: voor de input van maat en aantal stuks (met als prompt: kan je een input maken voor een maat en aantal stuks selectie)
+1. Chat Gpt: voor de input van maat en aantal stuks (met als prompt: kan je een input maken voor een maat en aantal stuks selectie)
 
-  2. Social Media Icons by NiftyButtons https://niftybuttons.com (in de footer van Merch en Home html)
+2. Social Media Icons by NiftyButtons https://niftybuttons.com (in de footer van Merch en Home html)
 
-  3. Code Pen /Dlo: hulp met formulier maken (die docent had gestuurd als )
+3. Code Pen /Dlo: hulp met formulier maken (die docent had gestuurd op teams ) en hamburger menu oger en princess van Code Pen op dlo als inspiratie
+
+4. https://www.reddit.com/r/ChaseAtlantic/comments/zxi9jm/hello_ca_fans_i_made_some_wallpapers_for_you_to/ voor de logo van de header
+
+5. https://www.iconfinder.com/icons/8666616/shopping_cart_icon voor de SVG onderaan de footer (social media buttons)
+
+WCAG checklist: <img src="readme-images/WCAG checklist Nina Hoogenraad/Adobe Scan 10 Dec 2024-1.png" width="375px" alt="WCAG checklist">
 
 </details>

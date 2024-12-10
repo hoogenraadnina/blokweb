@@ -1,29 +1,19 @@
-
-
-
 var openButton = document.querySelector("header > button");
-// menu button = reactie op klik en dan gaat ie open
+// vind de button in de header
 openButton.onclick = openMenu;
 
-// stap 3: voeg in de functie een class toe aan de nav
-
-function openMenu() {  
-  // menu vinden
-  var deNav = document.querySelector("nav");   // nieuwe class aangemaakt
-  deNav.classList.add("toonMenu");
+function openMenu() {
+  var deNav = document.querySelector("nav"); // selecteer nav
+  deNav.classList.add("toonMenu"); //aan de nav voeg je een class om menu te tonen
 }
 
+var sluitButton = document.querySelector("nav button"); //kruisje geselecteerd
 
-// sluiten button
-var sluitButton = document.querySelector("nav button");
-
-// onclick sluitmenu aangemaakt
+// als op sluitButton klikt = ook sluitMenu
 sluitButton.onclick = sluitMenu;
 
-// als je weer op kruisje klikt gaat de menu dicht
+// selecteert nav en verwijdert toonMenu zodat het menu sluit
 function sluitMenu() {
   var deNav = document.querySelector("nav");
   deNav.classList.remove("toonMenu");
 }
-
-

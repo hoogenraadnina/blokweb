@@ -275,6 +275,8 @@ Nb. Vermeld de bronnen ook in je code.
 
 5. https://www.iconfinder.com/icons/8666616/shopping_cart_icon voor de SVG onderaan de footer (social media buttons)
 
+6. https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_css 
+
 WCAG checklist: <img src="readme-images/WCAG checklist Nina Hoogenraad/Adobe Scan 10 Dec 2024-1.png" width="375px" alt="WCAG checklist">
 
 </details>
